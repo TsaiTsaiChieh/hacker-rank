@@ -1,20 +1,16 @@
 function pickingNumbers(a) {
-  let ans = 0;
-  a = a.sort();
-  for (let i = 0; i < a.length; i++) {
-    const ansArr = [];
-    const ele = a[i];
-    ansArr.push(ele);
-    for (let j = i + 1; j < a.length - 1; j++) {
-      const next = a[j];
-      console.log(i, ele, next, ele - next);
-      if (Math.abs(ele - next) <= 1) {
-        ansArr.push(next);
-      }
-    }
-    ans = Math.max(ans, ansArr.length);
+  const freq = new Array(100).fill(0); // assuming the range of integers is between 0 and 100
+  let maxLength = 0;
+  // calculate frequency of each element
+  for (const num of a) {
+    freq[num]++;
   }
-  return ans;
+  console.log(freq);
+  for (let i = 0; i < freq.length - 1; i++) {
+    const j = i + 1;
+    maxLength = Math.max(maxLength, freq[i] + freq[j]);
+  }
+  return maxLength;
 }
 const [a1, a2] = [
   [4, 6, 5, 3, 3, 1],
