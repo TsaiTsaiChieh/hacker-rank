@@ -1,16 +1,18 @@
 function jumpingOnClouds(c, k) {
+  let currIdx = 0
   let energy = 100
-  const loop = Math.ceil(c.length / k)
-  console.log(loop)
-  for (let i = 0; i < loop; i++) {
-    if (c[i * k] === 0) energy -= 1
-    else if (c[i * k] === 1) energy -= 3
-  }
+  do {
+    currIdx = (currIdx + k) % c.length
+    energy--
+    if (c[currIdx] === 1) {
+      energy -= 2
+    }
+  } while (currIdx !== 0);
   return energy
 }
 
 const [c1, k1] = [[0, 0, 1, 0, 0, 1, 1, 0], 2];
-const [c2, k2] = [[1, 1, 1, 0, 1, 0, 0, 0], 3];
+const [c2, k2] = [[1, 1, 1, 0, 1, 1, 0, 0, 0, 0], 3];
 const [c3, k3] = [[0, 0, 1, 0], 2];
 console.log(jumpingOnClouds(c1, k1)) // 92
 console.log(jumpingOnClouds(c2, k2)) // 80
