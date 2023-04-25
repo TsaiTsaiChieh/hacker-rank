@@ -9,6 +9,7 @@
 7. [Jumping on the Clouds: Revisited](https://www.hackerrank.com/challenges/jumping-on-the-clouds-revisited/problem?utm_campaign=challenge-recommendation&utm_medium=email&utm_source=24-hour-campaign)
 8. [Lisa's Workbook](https://www.hackerrank.com/challenges/lisa-workbook/problem?utm_campaign=challenge-recommendation&utm_medium=email&utm_source=24-hour-campaign)
 9. [Append and Delete](https://www.hackerrank.com/challenges/append-and-delete/problem?utm_campaign=challenge-recommendation&utm_medium=email&utm_source=24-hour-campaign)
+10. [Compare the Triplets](https://www.hackerrank.com/challenges/compare-the-triplets/problem?utm_campaign=challenge-recommendation&utm_medium=email&utm_source=7-day-campaign)
 * Medium
 --- 
 1. [climbingLeaderboard](https://www.hackerrank.com/challenges/climbing-the-leaderboard/problem?isFullScreen=true)
