@@ -16,6 +16,7 @@ function appendAndDelete(s, t, k) {
   let appendOps = t.length - commonChars;
   let deleteOps = s.length - commonChars;
   let totalOps = appendOps + deleteOps;
+  // due to delete operation on an empty string results in an empty string
   if (k >= s.length + t.length || k >= totalOps && (k - totalOps) % 2 == 0) {
       return "Yes";
   } else {
