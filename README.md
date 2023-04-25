@@ -13,6 +13,7 @@
 11. [aVeryBigSum](https://www.hackerrank.com/challenges/a-very-big-sum/problem?utm_campaign=challenge-recommendation&utm_medium=email&utm_source=60-day-campaign)
 12. [saveThePrisoner](https://www.hackerrank.com/challenges/save-the-prisoner/problem?utm_campaign=challenge-recommendation&utm_medium=email&utm_source=24-hour-campaign)
 13. [beautifulDays](https://www.hackerrank.com/challenges/beautiful-days-at-the-movies/problem?utm_campaign=challenge-recommendation&utm_medium=email&utm_source=7-day-campaign)
+14. [findDigits](https://www.hackerrank.com/challenges/find-digits/problem?utm_campaign=challenge-recommendation&utm_medium=email&utm_source=24-hour-campaign)
 * Medium
 --- 
 1. [climbingLeaderboard](https://www.hackerrank.com/challenges/climbing-the-leaderboard/problem?isFullScreen=true)
