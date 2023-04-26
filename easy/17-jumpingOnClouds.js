@@ -4,8 +4,8 @@ function jumpingOnClouds(c, k) {
   let idx = 0;
   do {
     idx = (idx + k) % c.length;
-    if (c[idx] === 1) energy -= 3;
-    else if (c[idx] === 0) energy -= 1;
+    energy--;
+    if (c[idx] === 1) energy -= 2;
   } while (idx !== 0);
   return energy;
 }
