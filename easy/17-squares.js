@@ -8,12 +8,7 @@
  */
 function squares(a, b) {
   // Write your code here
-  let hit = 0;
-  for (let i = a; i <= b; i++) {
-    // console.log(i,Math.sqrt(i))
-    if (Math.sqrt(i) % 1 === 0) hit++;
-  }
-  return hit;
+  return Math.floor(Math.sqrt(b)) - Math.ceil(Math.sqrt(a)) + 1;
 }
 
 const [a1, b1] = [3, 9];
