@@ -20,3 +20,4 @@
 * Medium
 --- 
 1. [climbingLeaderboard](https://www.hackerrank.com/challenges/climbing-the-leaderboard/problem?isFullScreen=true)
+2. [nonDivisibleSubset](https://www.hackerrank.com/challenges/non-divisible-subset/problem?isFullScreen=true)
